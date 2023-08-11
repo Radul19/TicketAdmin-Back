@@ -1,7 +1,7 @@
 
 const bcrypt = require('bcrypt');
 const { Types } = require('mongoose');
-const Ticket = require("../models/TicketSchema")
+const Ticket = require("../models/ticketSchema")
 const saltRounds = 10;
 const userFunc = {}
 
